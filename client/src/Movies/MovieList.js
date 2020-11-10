@@ -16,7 +16,7 @@ function MovieDetails(props) {
   const { title, director, metascore,id } = props.movie;
 
   const history = useHistory();
-  console.log(history)
+ 
   // const routeToCard = () => {
   //   history.push(`/movies/${id}`)
   // }
